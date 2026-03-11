@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  Zap,
   Mail,
   Phone,
   MapPin,
@@ -164,7 +163,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2 mb-4 lg:mb-0">
             <Link to="/" className="inline-flex items-center gap-2 mb-4">
-              <Zap className="w-6 h-6 text-archie-orange" />
+              <img src="/archie-logo.png" alt="Archie" className="w-7 h-7" />
               <span className="text-lg font-extrabold text-gradient">ARCHIE</span>
             </Link>
             <p className="text-sm text-white/40 mb-5 max-w-xs leading-relaxed">

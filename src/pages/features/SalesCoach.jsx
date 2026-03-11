@@ -110,6 +110,20 @@ export default function SalesCoach() {
         </div>
       </section>
 
+      {/* App Screenshot */}
+      <section className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <img
+              src="/screenshots/sales-coach.png"
+              alt="Archie Sales Coach screenshot"
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
+            />
+          </motion.div>
+        </div>
+      </section>
+
       {/* Built for Roofers */}
       <section className="bg-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">

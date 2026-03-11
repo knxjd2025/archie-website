@@ -117,12 +117,13 @@ export default function Finance() {
       {/* Dashboard Preview */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="aspect-video rounded-2xl bg-gradient-to-br from-emerald-900 to-green-900 border border-gray-200 shadow-2xl flex items-center justify-center">
-            <div className="text-center">
-              <BarChart3 className="w-16 h-16 text-emerald-400 mx-auto mb-4" />
-              <p className="text-white text-xl font-semibold">Finance Command Dashboard</p>
-              <p className="text-gray-400 mt-2">Cash flow, profitability, and collections at a glance</p>
-            </div>
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <img
+              src="/screenshots/crm-invoices.png"
+              alt="Archie Finance Command screenshot"
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
+            />
           </motion.div>
         </div>
       </section>

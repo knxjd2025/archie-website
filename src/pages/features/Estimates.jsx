@@ -114,6 +114,20 @@ export default function Estimates() {
         </div>
       </section>
 
+      {/* App Screenshot */}
+      <section className="bg-white py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <img
+              src="/screenshots/crm-estimates.png"
+              alt="Archie Estimates screenshot"
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
+            />
+          </motion.div>
+        </div>
+      </section>
+
       {/* Workflow */}
       <section id="workflow" className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">

@@ -138,20 +138,13 @@ export default function CRM() {
       {/* App Screenshot */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="aspect-video rounded-2xl bg-gradient-to-br from-archie-dark to-archie-navy border border-gray-200 shadow-2xl overflow-hidden relative flex items-center justify-center">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <img
               src="/screenshots/crm-dashboard.png"
               alt="Archie CRM dashboard with leads, jobs, calendar, and pipeline management"
-              className="w-full h-full object-cover absolute inset-0"
-              onError={(e) => {
-                e.target.style.display = 'none';
-              }}
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
             />
-            <div className="text-center relative z-10">
-              <LayoutDashboard className="w-16 h-16 text-archie-orange mx-auto mb-4" />
-              <p className="text-white text-xl font-semibold">Archie CRM Dashboard</p>
-              <p className="text-gray-400 mt-2">Place crm-dashboard.png in /public/screenshots/</p>
-            </div>
           </motion.div>
         </div>
       </section>

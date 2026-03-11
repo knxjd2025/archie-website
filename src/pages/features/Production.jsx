@@ -117,12 +117,13 @@ export default function Production() {
       {/* Dispatch Board Preview */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="aspect-video rounded-2xl bg-gradient-to-br from-yellow-900 to-orange-900 border border-gray-200 shadow-2xl flex items-center justify-center">
-            <div className="text-center">
-              <Calendar className="w-16 h-16 text-yellow-400 mx-auto mb-4" />
-              <p className="text-white text-xl font-semibold">Visual Dispatch Board</p>
-              <p className="text-gray-400 mt-2">Drag-and-drop crew scheduling</p>
-            </div>
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <img
+              src="/screenshots/crm-jobs.png"
+              alt="Archie Production Hub screenshot"
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
+            />
           </motion.div>
         </div>
       </section>

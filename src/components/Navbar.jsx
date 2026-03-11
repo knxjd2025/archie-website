@@ -6,7 +6,6 @@ import {
   X,
   ChevronDown,
   Phone,
-  Zap,
   Brain,
   Mic,
   Calculator,
@@ -146,7 +145,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <Zap className="w-7 h-7 text-archie-orange" />
+            <img src="/archie-logo.png" alt="Archie" className="w-8 h-8" />
             <span className="text-xl font-extrabold tracking-tight text-gradient">
               ARCHIE
             </span>
@@ -324,7 +323,7 @@ export default function Navbar() {
               {/* Mobile Header */}
               <div className="flex items-center justify-between p-4 border-b border-white/10">
                 <Link to="/" className="flex items-center gap-2">
-                  <Zap className="w-6 h-6 text-archie-orange" />
+                  <img src="/archie-logo.png" alt="Archie" className="w-7 h-7" />
                   <span className="text-lg font-extrabold text-gradient">ARCHIE</span>
                 </Link>
                 <button

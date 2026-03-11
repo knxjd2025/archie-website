@@ -115,12 +115,13 @@ export default function Prospector() {
       {/* Map Preview */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="aspect-video rounded-2xl bg-gradient-to-br from-red-900 to-pink-900 border border-gray-200 shadow-2xl flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="w-16 h-16 text-red-400 mx-auto mb-4" />
-              <p className="text-white text-xl font-semibold">Prospector Map</p>
-              <p className="text-gray-400 mt-2">Permit data and aging roof identification</p>
-            </div>
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <img
+              src="/screenshots/prospector.png"
+              alt="Archie Prospector screenshot"
+              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
+              loading="lazy"
+            />
           </motion.div>
         </div>
       </section>
