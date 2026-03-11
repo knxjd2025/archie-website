@@ -112,20 +112,6 @@ export default function Prospector() {
         </div>
       </section>
 
-      {/* Map Preview */}
-      <section className="bg-white py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <img
-              src="/screenshots/prospector.png"
-              alt="Archie Prospector screenshot"
-              className="rounded-2xl shadow-2xl border border-gray-200 w-full"
-              loading="lazy"
-            />
-          </motion.div>
-        </div>
-      </section>
-
       {/* Capabilities */}
       <section id="capabilities" className="bg-archie-dark py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
