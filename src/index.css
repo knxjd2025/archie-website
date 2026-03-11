@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-archie-orange: #f97316;
+  --color-archie-dark: #1a1a2e;
+  --color-archie-navy: #16213e;
+  --color-archie-blue: #0f3460;
+  --color-archie-accent: #e94560;
+  --color-archie-light: #f8fafc;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #f97316, #e94560);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-gradient-hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  }
+  .bg-gradient-cta {
+    background: linear-gradient(135deg, #f97316 0%, #e94560 100%);
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-pulse-slow {
+    animation: pulse 3s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
