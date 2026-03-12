@@ -150,7 +150,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-archie-dark">Email</h3>
-                    <a href="mailto:hello@archie.now" className="text-archie-orange hover:underline font-medium">hello@archie.now</a>
+                    <a href="mailto:support@kynexpro.com" className="text-archie-orange hover:underline font-medium">support@kynexpro.com</a>
                     <p className="text-gray-500 text-sm mt-1">We respond within 2 hours</p>
                   </div>
                 </div>

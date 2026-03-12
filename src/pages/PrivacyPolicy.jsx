@@ -33,6 +33,7 @@ import {
 const sections = [
   { id: 'introduction', title: 'Introduction', icon: Shield },
   { id: 'information-collected', title: 'Information We Collect', icon: Database },
+  { id: 'google-data', title: 'Google Data Usage', icon: Mail },
   { id: 'how-we-use', title: 'How We Use Your Information', icon: Eye },
   { id: 'ai-data', title: 'AI Data Usage', icon: Brain },
   { id: 'data-protection', title: 'Data Protection & Security', icon: Lock },
@@ -40,6 +41,7 @@ const sections = [
   { id: 'your-rights', title: 'Your Rights', icon: UserCheck },
   { id: 'cookies', title: 'Cookies & Tracking', icon: Cookie },
   { id: 'children', title: "Children's Privacy", icon: Baby },
+  { id: 'google-api-compliance', title: 'Google API Compliance', icon: ExternalLink },
   { id: 'changes', title: 'Changes to Privacy Policy', icon: RefreshCw },
   { id: 'contact', title: 'Contact', icon: Settings },
 ];
@@ -124,14 +126,14 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy | Archie</title>
         <meta
           name="description"
-          content="Privacy Policy for Archie, the AI-powered roofing business management platform by Kynex Apps. Learn how we collect, use, and protect your data at archie.now and app.archie.now."
+          content="Privacy Policy for Archie, the AI-powered roofing business management platform by Kynex Pro. Learn how we collect, use, and protect your data at archie.now and app.archie.now."
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://archie.now/privacy-policy" />
         <meta property="og:title" content="Privacy Policy | Archie" />
         <meta
           property="og:description"
-          content="Privacy Policy for Archie, the AI-powered roofing business management platform by Kynex Apps."
+          content="Privacy Policy for Archie, the AI-powered roofing business management platform by Kynex Pro."
         />
         <meta property="og:url" content="https://archie.now/privacy-policy" />
         <meta property="og:type" content="website" />
@@ -158,7 +160,7 @@ export default function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <p className="text-white/50 text-lg max-w-2xl">
-              Your privacy matters to us. This policy explains how Archie and Kynex Apps
+              Your privacy matters to us. This policy explains how Archie and Kynex Pro
               collect, use, and protect your information.
             </p>
             <p className="text-white/30 text-sm mt-4">
@@ -176,7 +178,7 @@ export default function PrivacyPolicy() {
               {/* 1. Introduction */}
               <Section id="introduction" title="Introduction" icon={Shield}>
                 <p>
-                  Archie, operated by Kynex Apps ("Company," "we," "us," or "our"), is
+                  Archie, operated by Kynex Pro ("Company," "we," "us," or "our"), is
                   committed to protecting and respecting your privacy. This Privacy Policy
                   ("Policy") describes how we collect, use, store, and protect information
                   from users ("you" or "your") of the Archie platform, accessible at{' '}
@@ -307,6 +309,71 @@ export default function PrivacyPolicy() {
                       purposes.
                     </p>
                   </div>
+                </div>
+              </Section>
+
+              {/* Google Data Usage */}
+              <Section id="google-data" title="Google Data Usage" icon={Mail}>
+                <p>
+                  When you connect your Google account to Archie CRM, we access the following
+                  Google data:
+                </p>
+                <ul className="list-disc list-inside space-y-1.5 ml-2">
+                  <li>Your Google email address, name, and profile photo</li>
+                  <li>Your Gmail messages (to show your inbox inside the CRM)</li>
+                  <li>Your Google Calendar events (to show your schedule inside the CRM)</li>
+                </ul>
+
+                <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 mt-4">
+                  <h4 className="font-semibold text-white/80 mb-3">How We Use Google Data</h4>
+                  <p className="mb-3">We use your Google data <strong className="text-white/80">ONLY</strong> to:</p>
+                  <ul className="list-disc list-inside space-y-1.5 ml-2">
+                    <li>Show your Gmail inbox inside the Archie CRM so you can read and send emails without leaving the app</li>
+                    <li>Show your Google Calendar events so you can manage your schedule</li>
+                    <li>Let you link emails to leads and jobs in the CRM</li>
+                    <li>Optionally summarize emails using AI to help you work faster</li>
+                  </ul>
+                </div>
+
+                <div className="bg-red-500/5 border border-red-500/20 rounded-xl p-5 mt-4">
+                  <p className="text-red-400 font-semibold text-sm mb-2">
+                    We Do NOT Use Your Google Data For:
+                  </p>
+                  <ul className="list-disc list-inside space-y-1.5 ml-2 text-white/70 text-sm">
+                    <li>Advertising</li>
+                    <li>Selling to third parties</li>
+                    <li>Training AI models</li>
+                    <li>Anything other than showing it to YOU inside the app</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 mt-4">
+                  <h4 className="font-semibold text-white/80 mb-3">How We Store Google Data</h4>
+                  <ul className="list-disc list-inside space-y-1.5 ml-2">
+                    <li>Your Google login tokens (access token and refresh token) are stored in our secure database</li>
+                    <li>Email metadata (subject, sender, date, snippet) may be cached temporarily to speed up your inbox</li>
+                    <li>When you disconnect your Google account, ALL your Google data is deleted from our system immediately</li>
+                    <li>We also tell Google to revoke your tokens so we can never access your account again</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 mt-4">
+                  <h4 className="font-semibold text-white/80 mb-3">Who Can See Your Google Data</h4>
+                  <ul className="list-disc list-inside space-y-1.5 ml-2">
+                    <li>Only <strong className="text-white/80">YOU</strong> can see your own Google data (emails, calendar events)</li>
+                    <li>Your company admin <strong className="text-white/80">CANNOT</strong> see your Gmail or Calendar data</li>
+                    <li>We do NOT share your Google data with anyone outside of Archie CRM</li>
+                    <li>AI email summaries are processed securely — only the email content is sent, no personal identifiers</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 mt-4">
+                  <h4 className="font-semibold text-white/80 mb-3">Google Data Retention</h4>
+                  <ul className="list-disc list-inside space-y-1.5 ml-2">
+                    <li>Google data is kept only while your account is connected</li>
+                    <li>When you disconnect Google or delete your Archie CRM account, all Google data is permanently deleted</li>
+                    <li>Cached email metadata is deleted on disconnect</li>
+                  </ul>
                 </div>
               </Section>
 
@@ -547,7 +614,7 @@ export default function PrivacyPolicy() {
                   </p>
                   <p className="text-white/70 text-sm">
                     No private or personally identifiable information is ever shared outside
-                    of Kynex Apps and Archie.
+                    of Kynex Pro and Archie.
                   </p>
                 </div>
 
@@ -561,7 +628,7 @@ export default function PrivacyPolicy() {
                 <p>
                   <strong className="text-white/80">We Do Not Share Private Information:</strong>{' '}
                   No private or personally identifiable information is shared with any
-                  entity outside of Kynex Apps and Archie. Your data remains within our
+                  entity outside of Kynex Pro and Archie. Your data remains within our
                   corporate family at all times.
                 </p>
 
@@ -690,10 +757,10 @@ export default function PrivacyPolicy() {
                         and the right to non-discrimination for exercising your CCPA
                         rights. To exercise any of these rights, please contact us at{' '}
                         <a
-                          href="mailto:privacy@archie.now"
+                          href="mailto:support@kynexpro.com"
                           className="text-archie-orange hover:underline"
                         >
-                          privacy@archie.now
+                          support@kynexpro.com
                         </a>
                         .
                       </p>
@@ -755,12 +822,46 @@ export default function PrivacyPolicy() {
                   If you are a parent or guardian and you believe that your child has
                   provided us with personal information, please contact us at{' '}
                   <a
-                    href="mailto:privacy@archie.now"
+                    href="mailto:support@kynexpro.com"
                     className="text-archie-orange hover:underline"
                   >
-                    privacy@archie.now
+                    support@kynexpro.com
                   </a>{' '}
                   so that we can take appropriate action.
+                </p>
+              </Section>
+
+              {/* Google API Compliance */}
+              <Section id="google-api-compliance" title="Google API Compliance" icon={ExternalLink}>
+                <div className="bg-archie-orange/5 border border-archie-orange/20 rounded-xl p-5 mb-4">
+                  <p className="text-archie-orange font-semibold text-sm mb-2">
+                    Google API Services User Data Policy
+                  </p>
+                  <p className="text-white/70 text-sm">
+                    Archie CRM's use and transfer of information received from Google APIs
+                    adheres to the{' '}
+                    <a
+                      href="https://developers.google.com/terms/api-services-user-data-policy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-archie-orange hover:underline"
+                    >
+                      Google API Services User Data Policy
+                    </a>
+                    , including the Limited Use requirements.
+                  </p>
+                </div>
+                <p>
+                  You can review and manage your Google permissions at any time by visiting{' '}
+                  <a
+                    href="https://myaccount.google.com/permissions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-archie-orange hover:underline"
+                  >
+                    myaccount.google.com/permissions
+                  </a>
+                  .
                 </p>
               </Section>
 
@@ -800,25 +901,15 @@ export default function PrivacyPolicy() {
                 </p>
                 <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-5 space-y-2">
                   <p>
-                    <strong className="text-white/80">Archie</strong>, operated by Kynex
-                    Apps
+                    <strong className="text-white/80">Archie CRM</strong>, a product of Kynex Pro
                   </p>
                   <p>
-                    Privacy Inquiries:{' '}
+                    Email:{' '}
                     <a
-                      href="mailto:privacy@archie.now"
+                      href="mailto:support@kynexpro.com"
                       className="text-archie-orange hover:underline"
                     >
-                      privacy@archie.now
-                    </a>
-                  </p>
-                  <p>
-                    General Legal:{' '}
-                    <a
-                      href="mailto:legal@archie.now"
-                      className="text-archie-orange hover:underline"
-                    >
-                      legal@archie.now
+                      support@kynexpro.com
                     </a>
                   </p>
                   <p>

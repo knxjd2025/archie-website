@@ -172,11 +172,11 @@ export default function Footer() {
             </p>
             <div className="space-y-2 mb-6">
               <a
-                href="mailto:hello@archie.now"
+                href="mailto:support@kynexpro.com"
                 className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"
               >
                 <Mail className="w-3.5 h-3.5" />
-                hello@archie.now
+                support@kynexpro.com
               </a>
             </div>
             <div className="flex items-center gap-3">
@@ -261,7 +261,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-xs text-white/30">
-              &copy; {new Date().getFullYear()} Archie Technologies, Inc. All rights reserved.
+              &copy; {new Date().getFullYear()} Kynex Pro, Inc. All rights reserved.
             </p>
             <div className="flex items-center gap-5">
               <Link

@@ -124,14 +124,14 @@ export default function TermsOfService() {
         <title>Terms of Service | Archie</title>
         <meta
           name="description"
-          content="Terms of Service for Archie, the AI-powered roofing business management platform by Kynex Apps. Read our terms governing use of archie.now and app.archie.now."
+          content="Terms of Service for Archie, the AI-powered roofing business management platform by Kynex Pro. Read our terms governing use of archie.now and app.archie.now."
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://archie.now/terms-of-service" />
         <meta property="og:title" content="Terms of Service | Archie" />
         <meta
           property="og:description"
-          content="Terms of Service for Archie, the AI-powered roofing business management platform by Kynex Apps."
+          content="Terms of Service for Archie, the AI-powered roofing business management platform by Kynex Pro."
         />
         <meta property="og:url" content="https://archie.now/terms-of-service" />
         <meta property="og:type" content="website" />
@@ -179,7 +179,7 @@ export default function TermsOfService() {
                   By accessing, browsing, or using the Archie platform available at{' '}
                   <strong className="text-white/80">archie.now</strong> and{' '}
                   <strong className="text-white/80">app.archie.now</strong> (collectively,
-                  the "Service"), operated by Kynex Apps ("Company," "we," "us," or "our"),
+                  the "Service"), operated by Kynex Pro ("Company," "we," "us," or "our"),
                   you ("User," "you," or "your") acknowledge that you have read,
                   understood, and agree to be bound by these Terms of Service ("Terms"),
                   along with our{' '}
@@ -304,7 +304,7 @@ export default function TermsOfService() {
                   <li>
                     <strong className="text-white/80">Account Responsibility:</strong> You
                     are responsible for all activities that occur under your account,
-                    whether or not authorized by you. Archie and Kynex Apps shall not be
+                    whether or not authorized by you. Archie and Kynex Pro shall not be
                     liable for any loss or damage arising from your failure to comply with
                     these obligations.
                   </li>
@@ -400,7 +400,7 @@ export default function TermsOfService() {
                   limited to promotional emails about Archie features and updates, product
                   announcements, feature releases, industry news and best practices,
                   partner offers, event invitations, and other commercial communications
-                  from Archie and Kynex Apps.
+                  from Archie and Kynex Pro.
                 </p>
                 <p>
                   <strong className="text-white/80">Protection of Your Clients:</strong>{' '}
@@ -432,10 +432,10 @@ export default function TermsOfService() {
                   in any marketing email, adjusting your notification preferences in your
                   account settings, or contacting us at{' '}
                   <a
-                    href="mailto:legal@archie.now"
+                    href="mailto:support@kynexpro.com"
                     className="text-archie-orange hover:underline"
                   >
-                    legal@archie.now
+                    support@kynexpro.com
                   </a>
                   . Please note that transactional communications required for the
                   operation of your account and the Service cannot be opted out of while
@@ -444,7 +444,7 @@ export default function TermsOfService() {
                 <p>
                   <strong className="text-white/80">No External Sharing:</strong> No
                   private or personally identifiable information will ever be sold, rented,
-                  or shared with any third parties outside of Kynex Apps and Archie. We are
+                  or shared with any third parties outside of Kynex Pro and Archie. We are
                   committed to keeping your information within our corporate family.
                 </p>
               </Section>
@@ -494,7 +494,7 @@ export default function TermsOfService() {
                 <p>
                   <strong className="text-white/80">Privacy in AI Training:</strong> No
                   private or personally identifiable information will be shared with any
-                  third parties outside of Archie and Kynex Apps for the purpose of AI
+                  third parties outside of Archie and Kynex Pro for the purpose of AI
                   training. Where third-party AI infrastructure is used for service
                   delivery, only the minimum data necessary for processing is transmitted,
                   and such transmissions are governed by strict data processing agreements.
@@ -511,7 +511,7 @@ export default function TermsOfService() {
               {/* 7. Data Privacy & Security */}
               <Section id="data-privacy" title="Data Privacy & Security" icon={Lock}>
                 <p>
-                  Archie and Kynex Apps are committed to protecting your data with
+                  Archie and Kynex Pro are committed to protecting your data with
                   industry-leading security practices:
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-2">
@@ -527,7 +527,7 @@ export default function TermsOfService() {
                   <li>
                     <strong className="text-white/80">No External Sharing:</strong> No
                     private or personally identifiable information will ever be shared
-                    outside of Kynex Apps and Archie. Your data stays within our corporate
+                    outside of Kynex Pro and Archie. Your data stays within our corporate
                     family.
                   </li>
                   <li>
@@ -564,7 +564,7 @@ export default function TermsOfService() {
                 </p>
                 <p>
                   <strong className="text-white/80">License Grant:</strong> By uploading or
-                  submitting User Content to the Service, you grant Archie and Kynex Apps
+                  submitting User Content to the Service, you grant Archie and Kynex Pro
                   a non-exclusive, worldwide, royalty-free license to use, process, store,
                   reproduce, and display your User Content solely for the purposes of (a)
                   providing and operating the Service, (b) improving the Service and
@@ -617,7 +617,7 @@ export default function TermsOfService() {
                   </li>
                   <li>
                     Use the Service for any purpose that is competitive with Archie or
-                    Kynex Apps.
+                    Kynex Pro.
                   </li>
                   <li>
                     Resell, sublicense, or otherwise make the Service available to any
@@ -714,7 +714,7 @@ export default function TermsOfService() {
               {/* 12. Indemnification */}
               <Section id="indemnification" title="Indemnification" icon={Scale}>
                 <p>
-                  You agree to defend, indemnify, and hold harmless Archie, Kynex Apps,
+                  You agree to defend, indemnify, and hold harmless Archie, Kynex Pro,
                   and their respective officers, directors, employees, agents, and
                   affiliates from and against any and all claims, damages, obligations,
                   losses, liabilities, costs, and expenses (including but not limited to
@@ -751,10 +751,10 @@ export default function TermsOfService() {
                   <strong className="text-white/80">Termination by You:</strong> You may
                   terminate your account at any time by contacting us at{' '}
                   <a
-                    href="mailto:legal@archie.now"
+                    href="mailto:support@kynexpro.com"
                     className="text-archie-orange hover:underline"
                   >
-                    legal@archie.now
+                    support@kynexpro.com
                   </a>{' '}
                   or through the account settings within the Service. Upon termination,
                   your right to use the Service will immediately cease.
@@ -832,10 +832,10 @@ export default function TermsOfService() {
                   <p>
                     Email:{' '}
                     <a
-                      href="mailto:legal@archie.now"
+                      href="mailto:support@kynexpro.com"
                       className="text-archie-orange hover:underline"
                     >
-                      legal@archie.now
+                      support@kynexpro.com
                     </a>
                   </p>
                   <p>
